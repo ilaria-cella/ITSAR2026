@@ -747,6 +747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 173979728}
   - component: {fileID: 173979729}
+  - component: {fileID: 173979730}
   m_Layer: 9
   m_Name: Dummy_5
   m_TagString: Untagged
@@ -793,6 +794,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &173979730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173979727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d445ef77c5cf3064d856a5844107d656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
 --- !u!1 &193771925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 429797708}
   - component: {fileID: 429797709}
+  - component: {fileID: 429797710}
   m_Layer: 0
   m_Name: HealingSpring
   m_TagString: Untagged
@@ -1402,6 +1417,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3, y: 2, z: 3}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &429797710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429797707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aba4913e13428441b2c50f22295f9a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AreaEffect
+  effectType: 1
+  amountPerTick: 10
+  tickInterval: 1
+  enableSlide: 0
+  slideInertia: 0.9
+  enableSlow: 0
+  slowPercentage: 0.5
+  enableSpeedBoost: 0
+  speedBoostPercentage: 0.5
+  speedEffectDuration: 5
 --- !u!1 &440117087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,6 +1820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 542730853}
   - component: {fileID: 542730854}
+  - component: {fileID: 542730855}
   m_Layer: 9
   m_Name: Dummy_1
   m_TagString: Untagged
@@ -1829,6 +1867,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &542730855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542730852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d445ef77c5cf3064d856a5844107d656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
 --- !u!1 &584490895
 GameObject:
   m_ObjectHideFlags: 0
@@ -2112,6 +2163,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704411425}
   - component: {fileID: 704411426}
+  - component: {fileID: 704411427}
   m_Layer: 9
   m_Name: Dummy_3
   m_TagString: Untagged
@@ -2158,6 +2210,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &704411427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704411424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d445ef77c5cf3064d856a5844107d656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
 --- !u!1 &718965397
 GameObject:
   m_ObjectHideFlags: 0
@@ -2199,6 +2264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 727298914}
   - component: {fileID: 727298915}
+  - component: {fileID: 727298916}
   m_Layer: 0
   m_Name: LavaPool
   m_TagString: Untagged
@@ -2243,6 +2309,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 5, y: 2, z: 3}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &727298916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727298913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aba4913e13428441b2c50f22295f9a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AreaEffect
+  effectType: 0
+  amountPerTick: 10
+  tickInterval: 1
+  enableSlide: 0
+  slideInertia: 0.9
+  enableSlow: 0
+  slowPercentage: 0.5
+  enableSpeedBoost: 0
+  speedBoostPercentage: 0.5
+  speedEffectDuration: 5
 --- !u!1 &772783487
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,6 +3340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1164777578}
   - component: {fileID: 1164777579}
+  - component: {fileID: 1164777580}
   m_Layer: 9
   m_Name: Dummy_2
   m_TagString: Untagged
@@ -3298,6 +3387,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1164777580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164777577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d445ef77c5cf3064d856a5844107d656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
 --- !u!1 &1224916595
 GameObject:
   m_ObjectHideFlags: 0
@@ -3903,6 +4005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1626325624}
   - component: {fileID: 1626325625}
+  - component: {fileID: 1626325626}
   m_Layer: 9
   m_Name: Dummy_4
   m_TagString: Untagged
@@ -3949,6 +4052,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1626325626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626325623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d445ef77c5cf3064d856a5844107d656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
 --- !u!1 &1626467439
 GameObject:
   m_ObjectHideFlags: 0
@@ -4151,6 +4267,7 @@ GameObject:
   - component: {fileID: 1653389504}
   - component: {fileID: 1653389506}
   - component: {fileID: 1653389505}
+  - component: {fileID: 1653389507}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -4258,6 +4375,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 100
+--- !u!114 &1653389507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653389501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb9bc9f1b0c08046a2d7ed082ba9cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AutoTargeter
+  range: 20
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 512
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 128
+  eyeHeight: 1.5
 --- !u!1 &1658393533
 GameObject:
   m_ObjectHideFlags: 0
